@@ -32,7 +32,7 @@ export default function ChatInput({ value, onChange, onSend, isThinking }: ChatI
         <textarea
           ref={textareaRef}
           rows={1}
-          className="flex-1 h-[58px] resize-none p-4 pr-20 rounded-2xl bg-gray-700 border font-semibold border-gray-600 focus:outline-none focus:border-blue-500 overflow-hidden leading-relaxed"
+          className="flex-1 h-[58px] max-h-[162px] overflow-y-scroll resize-none p-4 pr-20 rounded-2xl bg-gray-700 border font-semibold border-gray-600 focus:outline-none focus:border-blue-500 overflow-hidden leading-relaxed"
           placeholder="Ask Eugene something..."
           value={value}
           onChange={(e) => onChange(e.target.value)}

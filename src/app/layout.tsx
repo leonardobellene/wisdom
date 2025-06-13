@@ -11,7 +11,10 @@ const quicksand = Quicksand({
 
 export const metadata: Metadata = {
   title: 'Eugene App',
-  description: '',
+  description: 'Light for the Path',
+    icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
